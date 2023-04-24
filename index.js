@@ -144,6 +144,6 @@ gmail.addEventListener('click', function(){
 
 download.addEventListener('click',function(){
 
-  window.location.href='https://drive.google.com/file/d/1Jkhpz81GmSRGNpqWaTwWPLTIm1O4cp3e/view?usp=sharing'
+  window.location.href='https://drive.google.com/file/d/1jBgrzKa9gn0vzke2stdVbVmD9j5QU6_X/view?usp=sharing'
 
 })
