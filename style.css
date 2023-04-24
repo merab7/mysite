@@ -276,268 +276,227 @@ padding-top: 7px;
 
 .viewmore{
   display: flex;
-justify-content: center;
-align-items:center ;
-padding:70px;
-text-decoration: underline;
-
+  justify-content: center;
+  align-items:center ;
+  padding: 4.375rem; /* 70px converted to rem */
+  text-decoration: underline;
 }
 
 /* footer */
 
 footer{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-color:#202020;
-color: white;
-padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#202020;
+  color: white;
+  padding: 1.25rem; /* 20px converted to rem */
 }
 
 .footinfo1{
-margin-bottom: 0;
-line-height: 108.2%;
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 700;
-
+  margin-bottom: 0;
+  line-height: 1.082; /* 108.2% converted to em */
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
 }
 
 .footinfo2{
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 400;
-margin-top: 7px;
-line-height: 125%;
-
+  margin-top: 0.4375rem; /* 7px converted to rem */
+  line-height: 1.25; /* 125% converted to em */
 }
 
 /* project page */
 
-
 .projecttag{
-
-display: flex;
-justify-content: center;
-padding: 30px;
-color: black;
-text-transform: uppercase;
-font-family: inherit;
-font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  padding: 1.875rem; /* 30px converted to rem */
+  color: black;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: bolder;
 }
-
 
 /* About me page */
 
-
 .iamsection{
-display: grid;
-grid-template-rows: 1fr ;
-padding: 50px;
+  display: grid;
+  grid-template-rows: 1fr ;
+  padding: 3.125rem; /* 50px converted to rem */
 }
-
 
 .hi{
   display: grid;
-  grid-template-columns: 150px 1fr;
-  padding-left: 50px;
-  gap: 30px;
+  grid-template-columns: 9.375rem 1fr; /* 150px converted to rem */
+  padding-left: 3.125rem; /* 50px converted to rem */
+  gap: 1.875rem; /* 30px converted to rem */
   align-self: end;
-  
 }
 
 .profilpic{
-width: 150px;
-border-radius: 50%;
-margin-top: 20px;
+  width: 9.375rem; /* 150px converted to rem */
+  border-radius: 50%;
+  margin-top: 1.25rem; /* 20px converted to rem */
 }
 
 .hi-greeting{
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 108.2%;
-  max-width: 700px;
+  font-size: 2.25rem; /* 36px converted to rem */
+  line-height: 1.082; /* 108.2% converted to em */
+  max-width: 43.75rem; /* 700px converted to rem */
 }
 
 .whatwillyousee{
   font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-color: #151515;
-max-width: 900px;
-  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem; /* 16px converted to rem */
+  line-height: 1.25; /* 20px converted to em */
+  color: #151515;
+  max-width: 56.25rem; /* 900px converted to rem */
 }
 
-
-
 .background{
-
   display: grid;
   grid-template: 1fr;
   padding-top: 0;
-  padding-left: 95px;
-
+  padding-left: 5.9375rem; /* 95px converted to rem */
 }
 
 .backgtoundheader{
-
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-
+  font-size: 2.25rem; /* 36px converted to rem */
 }
 
 .backgroundinfo{
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem; /* 16px converted to rem */
+  line-height: 1.25rem;
   color: #151515;
-  max-width: 1000px;
-
+  max-width: 62.5rem; /* equivalent to 1000px */
 }
 
-
-.planheading{
-
+.planheading {
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-
-
+  font-size: 2.25rem; /* equivalent to 36px */
 }
 
-.myplans{
+.myplans {
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   color: #151515;
-  max-width: 900px;
-
-
-
+  max-width: 56.25rem; /* equivalent to 900px */
 }
-
-
 
 @media (max-width: 43.75em) {
+  .hi {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
 
-  .hi{
-      display: grid;
-      grid-template-columns: 1fr;    
-      justify-content: center;
-      align-items: center;
+  .profilpic {
+    margin-bottom: 0;
+  }
+
+  .hi-greeting {
+    margin-top: 0;
+  }
+
+  .background {
+    padding-left: 3.125em; /* equivalent to 50px */
+  }
 }
-.profilpic{
-
-margin-bottom: 0;
-
-}
-
-.hi-greeting{
-
-margin-top: 0;
-
-
-}
-
-.background{
- padding-left: 50px;
-
-}
-
-}
-
 
 /* recent projects */
 
-.recentprojecttitle{
-display: flex;
-justify-content: center;
-
-}
-.recenttitle{
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 108.2%;
-text-align: center;
-color: #141414; 
-
+.recentprojecttitle {
+  display: flex;
+  justify-content: center;
 }
 
-.recentprojects{
-display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
-  grid-gap: 2em;
-  padding: 50px;
-}
-
-.viewmorebtnaboutme{
-justify-self: center;
-align-self: center;
-text-decoration: underline;
-font-size: 18px;
-font-weight: bolder;
-color: purple;
-}
-
-.viewmorebtnaboutme:hover{
-scale: 1.2;
-
-}
-
-.contacteheading{
+.recenttitle {
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-
-
+  font-size: 1.5rem; /* equivalent to 24px */
+  line-height: 1.082;
+  text-align: center;
+  color: #141414;
 }
 
-.contactemebtndiv{
-
-display: flex;
-flex-direction: row;
-gap: 20px;
-
+.recentprojects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+  grid-gap: 2rem;
+  padding: 3.125rem; /* equivalent to 50px */
 }
 
-.fa-facebook, .fa-square-instagram, .fa-envelope{
-
-font-size: 40px;
-transition: scale 0.15s;
-}
-.hover-effect:hover{
-
-scale: 1.2;
-
+.viewmorebtnaboutme {
+  justify-self: center;
+  align-self: center;
+  text-decoration: underline;
+  font-size: 1.125rem; /* equivalent to 18px */
+  font-weight: 700;
+  color: purple;
 }
 
-
-.downloadcv{
-margin-top: 50px;
-padding: 20px;
-background-color: #007bff; /* Blue color */
-color: #fff; /* Text color */
-border: none; /* Remove border */
-padding: 10px 20px; /* Add some padding */
-border-radius: 5px; /* Add some rounded corners */
-font-size: 16px; /* Set font size */
+.viewmorebtnaboutme:hover {
+  transform: scale(1.2);
 }
+
+.contacteheading {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem; /* equivalent to 36px */
+}
+
+.contactemebtndiv {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25em;
+}
+
+.fa-facebook,
+.fa-square-instagram,
+.fa-envelope {
+  font-size: 2.5em; /* equivalent to 40px */
+  transition: transform 0.15s;
+}
+
+.hover-effect:hover {
+  transform: scale(1.2);
+}
+
+.downloadcv {
+  margin-top: 3.125rem; /* equivalent to 50px */
+  padding: 1.25rem 2.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.3125rem; /* equivalent to 5px */
+  font-size: 1rem;
+}
+
 .downloadcv:hover {
-  background-color: #0062cc; /* Darker blue color on hover */
-  cursor: pointer; /* Change cursor to pointer on hover */
+  background-color: #0062cc;
+  cursor: pointer;
 }
